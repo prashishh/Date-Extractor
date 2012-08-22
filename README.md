@@ -1,22 +1,9 @@
-Hello this is a date 24/11/1990
-thi is wrong 12\03\1990 this ia 12/1/2010
-11th May 2011
-22nd April, 2012
-hello 24-12/1980
+Date Extractor using lex and yacc.
 
-31st of July, 2010
+This was a small task given to us in our Information Retrieval Class. Not a complete version, can be used as a foundation for a better date extractor.
 
-190/23/1990 wrong date
-date wrong version 1990-90-10
-
-Rs 12/-
-
-This is another example of date: 12/2/1920
-
-Another: 1992.12.12
-
-dat is 21st of March, 1990 and i want to go on 20/12/1987
-
-
-42nd of july, 2010
+To compile:
+  flex date.lex 
+  yacc -d date.y 
+  ./a.out test.txt
 
